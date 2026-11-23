@@ -29,8 +29,7 @@ To support the transition from traditional GLMs to Machine Learning (e.g., XGBoo
 2. **Baseline Reconciliation:** ML outputs bounded within ±15% of GLM baseline.
 3. **Human-in-the-Loop:** Rate changes >5% require Actuarial sign-off.
 4. **Drift Monitoring:** Automated alerts for >2% Actual vs. Expected deviation.
-
-<img width="2662" height="1470" alt="day3_ai_governance_checklist" src="https://github.com/user-attachments/assets/b796d451-c74a-4d9c-afc6-0c633d7a6a85" />
+<img width="862" height="490" alt="day3_ai_governance_checklist" src="https://github.com/user-attachments/assets/79215258-14f5-4118-b454-7ee329911a05" />
 
 
 ## 📂 Repository Contents
