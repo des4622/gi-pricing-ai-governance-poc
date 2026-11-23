@@ -14,11 +14,13 @@ To establish a transparent baseline pricing model for a General Insurance portfo
 
 ### 1. Portfolio Validation (Actual vs. Expected)
 The baseline GLM is well-calibrated for the majority of the book (ages 26+). However, the linear assumption fails to capture the non-linear risk spike in the youngest demographic.
-![Actual vs Expected](assets/day1_actual_vs_expected.png)
+<img width="3000" height="1800" alt="day1_actual_vs_expected" src="https://github.com/user-attachments/assets/40f54c9d-b1d9-4bf4-907b-0e6a6d7da725" />
+
 
 ### 2. Underperforming Segment Identification
 Deep-dive analysis revealed a critical leakage in the **18-25 'Med Risk' segment**, which is underperforming expectations by **63.7% (Lift = 1.63)**. 
-![Portfolio Heatmap](assets/day2_portfolio_heatmap.png)
+<img width="3000" height="1800" alt="day2_portfolio_heatmap" src="https://github.com/user-attachments/assets/4ab65a3e-bc5c-4ec7-b551-a7054395671f" />
+
 *Recommendation: Implement a +63.7% surcharge on base premium for this segment, or mandate telematics (UBI) for young drivers to improve risk selection.*
 
 ## 🛡️ AI Governance Framework
@@ -28,7 +30,8 @@ To support the transition from traditional GLMs to Machine Learning (e.g., XGBoo
 3. **Human-in-the-Loop:** Rate changes >5% require Actuarial sign-off.
 4. **Drift Monitoring:** Automated alerts for >2% Actual vs. Expected deviation.
 
-![AI Governance Checklist](assets/day3_ai_governance_checklist.png)
+<img width="2662" height="1470" alt="day3_ai_governance_checklist" src="https://github.com/user-attachments/assets/b796d451-c74a-4d9c-afc6-0c633d7a6a85" />
+
 
 ## 📂 Repository Contents
 - `day1_glm_pricing.py`: Python script for data ingestion, Poisson GLM fitting, and coefficient interpretation.
